@@ -10,8 +10,8 @@ int main ()
 	double t = 0;
 	cout << "Inter T: "; cin >> t;
   double a = 0;
-  a = asin(9.8 * t / 2 * v);
-  cout << "Ugol = " << a*(90/asin(1.0)) << endl;
+  a = asin((9.8 * t) / (2 * v));
+  cout << "Ugol = " << a * (180 / 3.14) << endl;
 	return 0;
 }
 
